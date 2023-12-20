@@ -1,0 +1,70 @@
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('https://img.freepik.com/free-photo/lights-prisms-effect-close-up_23-2148917891.jpg?q=10&h=200') no-repeat 100px center;
+  background-size: cover;
+  background-position: center;
+}
+.about-container {
+  width: 100%;
+  margin: 60px;
+  text-align: left;
+}
+
+.about-container h2 {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  text-align: left;
+  color: #ffffff;
+}
+.about-container h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about-container p {
+ font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about-features {
+  margin-top: 60px;
+}
+
+.about-features h3 {
+font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about-features ul {
+  list-style: none;
+font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-align: left;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.about-features li {
+  margin-bottom: 10px;
+}

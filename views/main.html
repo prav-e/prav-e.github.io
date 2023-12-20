@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <title>SyncConNos</title>
+    <link rel="stylesheet" href="\homepage.css">
+</head>
+<body>
+    <header>
+        <h3>Vibe pannunga da booiis and girllss🎶😎</h3>
+        <audio controls="song">
+            <source src="\Vadivelu Comedy Reel - Enna Polappu idhu.mp3" type="audio/mp3">
+        </audio>
+        <nav class="navigation">     
+            <a href="wasted"> Wasted</a>  
+            <a href="scared">Scared</a>
+            <a href="sarakku">Theme Song</a>
+            <a href="aboutpage">About</a>
+            <a href="logout">Logout</a>
+        </nav>
+    </header>
+        </section>
+    
+</body>
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+</html>
